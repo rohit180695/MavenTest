@@ -1,5 +1,11 @@
 package crm_maven;
 
-public class Maven1 {
+import org.testng.Reporter;
+import org.testng.annotations.Test;
 
+public class Maven1 {
+    @Test
+    public void Maven1() {
+    	Reporter.log("brouser", true);
+    }
 }
